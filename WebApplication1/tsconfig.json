@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "ES6",
+    "moduleResolution": "node", // https://stackoverflow.com/questions/54893300/bootstrap-4-typescript-type-definition-fails-to-compile-cannot-find-module-po
+    "target": "es6",
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "lib": [
+      "es6",
+      "es5",
+      "dom"
+    ],
+    "rootDir": "./App",
+    "outDir": "wwwroot/js",
+    "allowJs": true
+  },
+  "include": [ "./App/**/*" ],
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ],
+  "compileOnSave": true
+}
